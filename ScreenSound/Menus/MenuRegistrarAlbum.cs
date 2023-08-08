@@ -1,25 +1,26 @@
 ﻿
+
 using ScreenSound.Modelos;
 
 namespace ScreenSound.Menus;
 
-internal class MenuAvaliarBanda : Menu
+internal class MenuRegistrarAlbum : Menu
 {
     public override void Executar(Dictionary<string, Banda> bandasRegistradas)
     {
         base.Executar(bandasRegistradas);
-        ExibirTituloDaOpcao("Avaliar banda");
-        Console.Write("Digite o nome da banda que deseja avaliar: ");
+        Console.Write("Digite a banda cujo álbum deseja registrar: ");
         string nomeDaBanda = Console.ReadLine()!;
         if (bandasRegistradas.ContainsKey(nomeDaBanda))
         {
+            Console.Write("Agora digite o título do álbum: ");
+            string tituloAlbum = Console.ReadLine()!;
             Banda banda = bandasRegistradas[nomeDaBanda];
-            Console.Write($"Qual a nota que a banda {nomeDaBanda} merece: ");
-            Avaliacao nota = Avaliacao.Parse(Console.ReadLine()!);
-            banda.AdicionarNota(nota);
-            Console.WriteLine($"\nA nota {nota.Nota} foi registrada com sucesso para a banda {nomeDaBanda}");
-            Thread.Sleep(2000);
-            Console.Clear();        }
+            banda.AdicionarAlbum(new Album(tituloAlbum));
+            Console.WriteLine($"O álbum {tituloAlbum} de {nomeDaBanda} foi registrado com sucesso!");
+            Thread.Sleep(4000);
+            Console.Clear();
+        }
         else
         {
             Console.WriteLine($"\nA banda {nomeDaBanda} não foi encontrada!");
@@ -28,4 +29,5 @@ internal class MenuAvaliarBanda : Menu
             Console.Clear();
         }
     }
+
 }
