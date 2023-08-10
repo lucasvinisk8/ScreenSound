@@ -13,3 +13,16 @@ D:\Aulas dev\C#\ScreenSound-03-projeto-inicial\ScreenSound\ScreenSound\obj\Debug
 D:\Aulas dev\C#\ScreenSound-03-projeto-inicial\ScreenSound\ScreenSound\obj\Debug\net6.0\ScreenSound.pdb
 D:\Aulas dev\C#\ScreenSound-03-projeto-inicial\ScreenSound\ScreenSound\obj\Debug\net6.0\ScreenSound.genruntimeconfig.cache
 D:\Aulas dev\C#\ScreenSound-03-projeto-inicial\ScreenSound\ScreenSound\obj\Debug\net6.0\ref\ScreenSound.dll
+D:\Aulas dev\C#\ScreenSound-03-projeto-inicial\ScreenSound\ScreenSound\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Aulas dev\C#\ScreenSound-03-projeto-inicial\ScreenSound\ScreenSound\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+D:\Aulas dev\C#\ScreenSound-03-projeto-inicial\ScreenSound\ScreenSound\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Aulas dev\C#\ScreenSound-03-projeto-inicial\ScreenSound\ScreenSound\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\Aulas dev\C#\ScreenSound-03-projeto-inicial\ScreenSound\ScreenSound\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Aulas dev\C#\ScreenSound-03-projeto-inicial\ScreenSound\ScreenSound\bin\Debug\net6.0\Microsoft.Extensions.Http.dll
+D:\Aulas dev\C#\ScreenSound-03-projeto-inicial\ScreenSound\ScreenSound\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\Aulas dev\C#\ScreenSound-03-projeto-inicial\ScreenSound\ScreenSound\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Aulas dev\C#\ScreenSound-03-projeto-inicial\ScreenSound\ScreenSound\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\Aulas dev\C#\ScreenSound-03-projeto-inicial\ScreenSound\ScreenSound\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\Aulas dev\C#\ScreenSound-03-projeto-inicial\ScreenSound\ScreenSound\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Aulas dev\C#\ScreenSound-03-projeto-inicial\ScreenSound\ScreenSound\bin\Debug\net6.0\OpenAI_API.dll
+D:\Aulas dev\C#\ScreenSound-03-projeto-inicial\ScreenSound\ScreenSound\obj\Debug\net6.0\ScreenSound.csproj.CopyComplete
